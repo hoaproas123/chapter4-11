@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sumary/widget/appBar_widget.dart';
+import '../../widget/appBar_widget.dart';
 import 'package:sumary/constant/app_string.dart';
 import 'package:sumary/widget/button_widget.dart';
 class home4 extends StatefulWidget {
@@ -16,7 +16,7 @@ class _home4State extends State<home4> {
       tag: 'page',
       child: Scaffold(
         appBar:PreferredSize(
-          preferredSize: const Size.fromHeight(55),
+          preferredSize: Size.fromHeight(55),
           child: appBar_widget(title: AppString.chap4),
         ),
         body: Column(

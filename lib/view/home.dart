@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sumary/constant/app_color.dart';
-import 'package:sumary/constant/app_string.dart';
+import 'package:sumary/constant/index.dart';
 import '../widget/button_widget.dart';
 import 'package:sumary/router/routerPage.dart';
 class home extends StatelessWidget {
